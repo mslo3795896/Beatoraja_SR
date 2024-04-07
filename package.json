@@ -1,0 +1,45 @@
+{
+  "name": "electron-vue3",
+  "productName": "Beatoraja S&R",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "@electron-forge/maker-deb": "^7.3.1",
+    "@electron-forge/maker-rpm": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-zip": "^7.3.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron-forge/plugin-vite": "^7.3.1",
+    "@electron/fuses": "^1.7.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "29.1.5",
+    "element-plus": "^2.6.1",
+    "sass": "^1.72.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.0.12",
+    "vue": "^3.4.21"
+  },
+  "keywords": [],
+  "author": {
+    "name": "ttiioopp",
+    "email": "timwang0825@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "replace-in-file": "^7.1.0",
+    "update-electron-app": "^3.0.0"
+  },
+  "repository": "https://github.com/mslo3795896/Beatoraja_SR.git"
+}
