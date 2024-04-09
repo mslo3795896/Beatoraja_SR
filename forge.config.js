@@ -41,8 +41,8 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'me',
-          name: 'Beatoraja S&R',
+          owner: 'mslo3795896',
+          name: 'Beatoraja_SR',
         },
         prerelease: true,
       },

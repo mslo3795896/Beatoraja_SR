@@ -30,6 +30,9 @@ export default defineConfig((env) => {
         resolvers: [ElementPlusResolver()],
       }),
     ],
+    define: {
+      PACKAGE_VERSION: JSON.stringify(process.env.npm_package_version),
+    },
     resolve: {
       preserveSymlinks: true,
     },

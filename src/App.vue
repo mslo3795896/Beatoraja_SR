@@ -12,6 +12,7 @@
   }
 
   const isDevelopment = import.meta.env.DEV
+  const package_version = 'v' + PACKAGE_VERSION
 
   const ruleFormRef = ref<FormInstance>()
   const ruleForm = ref<RuleForm>({
@@ -240,6 +241,7 @@
       </template>
     </el-result>
   </el-dialog>
+  <div class="ver">{{ package_version }}</div>
 </template>
 
 <style lang="scss" scoped>
@@ -269,5 +271,12 @@
         margin-right: 20px;
       }
     }
+  }
+
+  .ver {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    opacity: 0.3;
   }
 </style>
